@@ -1,0 +1,8 @@
+<configuration>
+    <variable name="host" value='@"localhost"'/>
+    <variable name="port" value="5432"/>
+    <variable name="database" value='@"myapp"'/>
+    <variable name="user" value='@"admin"'/>
+    <variable name="poolSize" value="10"/>
+    <variable name="tables" value='({@"users", @"products", @"orders"})'/>
+</configuration>

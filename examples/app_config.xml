@@ -1,0 +1,8 @@
+<configuration>
+    <variable name="appName" value='@"MyApp"'/>
+    <variable name="version" value='@"1.0.0"'/>
+    <variable name="debug" value="true"/>
+    <variable name="maxMemory" value="1024"/>
+    <variable name="logLevels" value='({@"error", @"warn", @"info"})'/>
+    <variable name="features" value='({({@"name", @"enabled"}), ({@"cache", @"tre"})})'/>
+</configuration>

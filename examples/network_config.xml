@@ -1,0 +1,7 @@
+<configuration>
+    <variable name="server" value='@"192.168.1.100"'/>
+    <variable name="ports" value="({80, 443, 8080})"/>
+    <variable name="maxConnections" value="1000"/>
+    <variable name="allowedIPs" value='({@"10.0.0.0/24", @"192.168.1.0/24"})'/>
+    <variable name="timeout" value="30"/>
+</configuration>
